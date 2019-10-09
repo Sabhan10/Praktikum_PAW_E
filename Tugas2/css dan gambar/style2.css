@@ -1,0 +1,29 @@
+body {
+			background:url(utm.jpg);
+			background-size:cover;
+			background-attachment:fixed;
+			background-repeat:no-repeat;
+			font-family: sans-serif;
+		}
+		h1 {
+			padding-left: 10px;
+		}
+		legend {
+			font-size: 15pt;
+		}
+		.Main {
+			border-radius: 10px;
+    		background-color: lightblue;
+		}
+		.Background {
+			background-color: #2F4F4F;
+			border-top: 6px solid lightblue;
+			border-radius: 10px;
+			margin-left: 400px;
+			margin-right: 400px;
+			margin-top: 100px;
+			padding: 10px;
+		}
+		fieldset {
+			background-color: lightblue;
+		}
