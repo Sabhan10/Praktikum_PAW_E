@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 	<title>My Form Login</title>
-	<link rel="stylesheet" type="text/css" href="css dan gambar/style1.css">
+	<link rel="stylesheet" type="text/css" href="css_gambar/style1.css">
 	</head>
 	<?php 
 		$pesanSurname = @$_GET['pesanSurname'];
@@ -14,7 +14,7 @@
 		$surname = @$_GET['surname'];
 		$fname = @$_GET['fname'];
 		$email = @$_GET['email'];
-		$Mnumber= @$_GET['Mnumber'];
+		$Mnumber = @$_GET['Mnumber'];
 		$passwd = @$_GET['passwd'];
 		$Cpasswd = @$_GET['Cpasswd'];
 

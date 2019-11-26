@@ -73,7 +73,7 @@
 				$errorCpasswd = "confirm password invalid";
 			}
 		} 
-
+		//ketika sudah tidak ada error
 		if (empty($errorSurname) and empty($errorFname) and empty($errorEmail) and empty($errorMnumber) and empty($errorPasswd) and empty($errorCpasswd)){
 			header("Location: login.php?sukses=sukses");
 		}

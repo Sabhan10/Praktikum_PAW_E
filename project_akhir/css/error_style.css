@@ -1,0 +1,24 @@
+/* mengatur body */
+body {
+	background: #009900;
+	font-family: Arial, Consolas, Verdana;
+}
+/* mengatur ukuran jarak diluar */
+.outsite {
+	padding: 10% 20% 20% 20%;
+}
+/* mengatur ukuran jarak didalam */
+.insite {
+	border-style: inset;
+	border-radius: 25px;
+	background-color: #F8F8FF;
+	box-shadow: 5px 10px ;
+}
+/* mengatur tulisan judul */
+h1 {
+	padding: 0 0 0 5%;
+}
+/* mengatur tulisan paragraf */
+p {
+	padding: 0 0 0 5%;
+}

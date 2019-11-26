@@ -1,0 +1,65 @@
+/*mengatur font*/
+body {
+	font-family: Arial, Consolas, Verdana;
+}
+
+/* mengatur ukuran lebar header */
+.lebar{
+	width:100%;
+}
+/* mengatur sidebox kiri */
+.sidebox{
+	border: 3px solid black;
+	width: 250px;
+	height: 450px;
+	background: green;
+	float: left;
+	color:white;
+	padding-left:15px;
+	padding-right:15px;
+}
+/* mengatur huruf judul sidebox kiri */
+.sidebox h1{
+	font-size:24px;
+}
+/* mengatur huruf paragraf sidebox kiri */
+.sidebox p{
+	font-size:16px;
+	text-align:justify;
+}
+/* mengatur isi */
+.isi{
+	height:450px;
+	border:3px solid green;
+	background-color:white;
+	margin-bottom: 15px;
+	margin-left:300px;
+	color: black;
+	text-align:center;
+}
+/* mengatur kotak / fieldset isi */
+.isi fieldset{
+	margin-right: 305px;
+	margin-left: 305px;
+	text-align:left;
+	font-size:16px;
+}
+/* mengatur legend/judul dalam isi */
+.isi legend{
+	font-size:24px;
+}
+/* mengatur judul dalam isi */
+.isi h1{
+	font-size:50px;
+	line-height:0px;
+}
+/* mengatur tulisan yang dihidden yang muncul dalam isi */
+span {
+	color: red;
+}
+/* mengatur footer */
+#footer{
+	border: 1px dashed green;
+	background-color: white;
+	text-align: center;
+}

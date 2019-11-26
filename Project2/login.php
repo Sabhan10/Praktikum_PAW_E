@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 	<title>My Form Login</title>
-	<link rel="stylesheet" type="text/css" href="css dan gambar/style2.css">
+	<link rel="stylesheet" type="text/css" href="css_gambar/style2.css">
 	</head>
 <body>
 	<div class="Background">

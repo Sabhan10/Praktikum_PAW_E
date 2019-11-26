@@ -1,0 +1,109 @@
+/*mengatur font*/
+body {
+	font-family: Arial, Consolas, Verdana;
+}
+
+/* mengatur ukuran lebar header */
+.lebar{
+	width:100%;
+}
+/* mengatur sidebox kiri */
+.sidebox{
+	border: 3px solid black;
+	width: 250px;
+	height: 450px;
+	background: green;
+	float: left;
+	color:white;
+	padding-left:15px;
+	padding-right:15px;
+}
+/* mengatur huruf judul sidebox kiri */
+.sidebox h1{
+	font-size:24px;
+}
+/* mengatur huruf paragraf sidebox kiri */
+.sidebox p{
+	font-size:16px;
+	text-align:justify;
+}
+/* mengatur isi */
+.isi{
+	height:450px;
+	border:3px solid green;
+	background-color:white;
+	margin-bottom: 15px;
+	margin-left:300px;
+	color: black;
+	text-align:center;
+}
+/* mengatur unorderlist dalam isi */
+.isi ul {
+	list-style:none; 
+}
+/* mengatur a href / link isi */
+.isi a {
+	text-decoration:none;
+	color:white; 
+	font-weight:bold;
+	text-align:center;
+}
+/* mengatur list dalam bagian isi */
+.isi li {
+	display:inline; 
+	background-color: green;
+	padding:5px;
+	border:3px solid black; 
+	margin-left:2px;
+	margin-right:2px;
+}
+/* mengatur list ketika ada kursor dalam bagian isi */
+.isi li:hover {
+	background-color:white;
+	border:3px solid green;
+}
+/* mengatur link ketika ada kursor dalam bagian isi */
+.isi a:hover{
+	color:black;
+}
+/* mengatur judul dalam isi */
+.isi h1{
+	font-size:50px;
+	line-height:0px;
+	text-align:center;
+}
+/* mengatur tabel dalam isi */
+.isi table {
+    font-family: sans-serif;
+    color: black;
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #f2f5f7;
+	margin-left:50px;
+}
+/* mengatur baris kolom tabel dalam isi */
+.isi table tr th{
+    background: green;
+    color: #fff;
+    font-weight: normal;
+}
+/* mengatur baris kolom tabel dalam isi */
+.isi table, .isi th, .isi td {
+    padding: 8px 20px;
+    text-align: center;
+	border:1px solid black;
+}
+/* mengatur baris tabel ketika ada cursor dalam isi */
+.isi table tr:hover {
+    background-color: #f5f5f5;
+}
+ /* mengatur baris tabel dalam isi */
+.isi table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/* mengatur footer */
+#footer{
+	border: 1px dashed green;
+	background-color: white;
+	text-align: center;
+}

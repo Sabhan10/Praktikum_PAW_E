@@ -1,0 +1,91 @@
+/*mengatur font*/
+body {
+	font-family: Arial, Consolas, Verdana;
+}
+
+/* mengatur ukuran lebar header */
+.lebar{
+	width:100%;
+}
+/* mengatur sidebox kiri */
+.sidebox{
+	border: 3px solid black;
+	width: 250px;
+	height: 450px;
+	background: green;
+	float: left;
+	color:white;
+	padding-left:15px;
+	padding-right:15px;
+}
+/* mengatur huruf judul sidebox kiri */
+.sidebox h1{
+	font-size:24px;
+}
+/* mengatur huruf paragraf sidebox kiri */
+.sidebox p{
+	font-size:16px;
+	text-align:justify;
+}
+/* mengatur isi */
+.isi{
+	height:450px;
+	border:3px solid green;
+	background-color:white;
+	margin-bottom: 15px;
+	margin-left:20%;
+	color: black;
+	text-align:center;
+}
+/* mengatur kotak / fieldset isi */
+.isi fieldset{
+	width:30%;
+	margin-left:35%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	text-align:left;
+	font-size:16px;
+}
+/* mengatur list dalam isi */
+.isi ul {
+	list-style:none; 
+}
+/* mengatur a href / link isi */
+.isi a {
+	text-decoration:none;
+	color:white; 
+	font-weight:bold;
+	text-align:center;
+}
+/* mengatur list dalam bagian isi */
+.isi li {
+	display:inline; 
+	background-color: green;
+	padding:5px;
+	border:3px solid black; 
+	margin-left:2px;
+	margin-right:2px;
+}
+/* mengatur list ketika ada kursor dalam bagian isi */
+.isi li:hover {
+	background-color:white;
+	border:3px solid green;
+}
+/* mengatur link ketika ada kursor dalam bagian isi */
+.isi a:hover{
+	color:black;
+}
+/* mengatur tabel dalam isi */
+.isi table{
+	margin-top:10px;
+}
+/* mengatur kolom dalam isi */
+.isi table td{
+	text-align:left;
+}
+/* mengatur footer */
+#footer{
+	border: 1px dashed green;
+	background-color: white;
+	text-align: center;
+}

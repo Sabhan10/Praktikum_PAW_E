@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.9
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 06 Okt 2018 pada 17.36
--- Versi server: 10.1.31-MariaDB
--- Versi PHP: 7.2.3
+-- Waktu pembuatan: 27 Sep 2019 pada 19.54
+-- Versi server: 10.1.36-MariaDB
+-- Versi PHP: 7.2.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -33,7 +33,7 @@ CREATE TABLE `animals` (
   `PuppyName` varchar(256) DEFAULT NULL,
   `BreedID` int(11) DEFAULT NULL,
   `Description` varchar(256) DEFAULT NULL,
-  `price` decimal(10,2) DEFAULT NULL,
+  `Price` decimal(10,2) DEFAULT NULL,
   `Picture` varchar(256) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -41,15 +41,12 @@ CREATE TABLE `animals` (
 -- Dumping data untuk tabel `animals`
 --
 
-INSERT INTO `animals` (`ID`, `PuppyName`, `BreedID`, `Description`, `price`, `Picture`) VALUES
-(1, 'Johnny', 4, 'Good For a Farm', '100.00', 'Johnny.jpg'),
-(2, 'Bully', 3, 'A fighter,excellent watchdog', '599.00', 'Bully.jpg'),
-(3, 'Bo-Bo', 2, 'Suit Sweet old lady', '150.00', 'Bo-Bo.jpg'),
-(4, 'Albert', 6, 'Family dog', '20.00', 'Albert.jpg'),
-(5, 'Fritz', 1, 'Watchdog', '129.00', 'Fritz.jpg'),
-(6, 'Sam', 7, 'Good for nothing', '10.00', 'Sam.jpg'),
-(7, 'Teddy', 8, 'Cuddlu', '150.00', 'Teddy.jpg'),
-(18, 'anjing', 1, 'good', '10.00', 'albert.jpg');
+INSERT INTO `animals` (`ID`, `PuppyName`, `BreedID`, `Description`, `Price`, `Picture`) VALUES
+(1, 'Johnny', 1, 'Good for a farm', '100.00', 'Johnny.JPG'),
+(2, 'Bully', 3, 'A Fighter, Excellent watchdog', '599.00', 'Bully.jpg'),
+(3, 'Bo-Bo', 1, 'Suit sweet old lady', '150.00', 'Bo-Bo.jpg'),
+(4, 'Albert', 5, 'Family dog', '20.00', 'Albert.jpg'),
+(5, 'Fritz', 1, 'Watchdog', '129.00', 'Fritz.jpg');
 
 -- --------------------------------------------------------
 
@@ -75,8 +72,8 @@ INSERT INTO `breeds` (`Breed`, `BreedName`, `Temperament`) VALUES
 (5, 'Alsatian', 'Faithful'),
 (6, 'Beagle', 'Smooches'),
 (7, 'Schnauzer', 'Fluffy'),
-(8, 'Jack Russell', 'Psychopathic'),
-(9, 'Rat Terrier', 'Less aggressive than Jack Russell');
+(8, 'Jack Russell', 'Psychopatic'),
+(9, 'Rat Terrier', 'Less Aggressive than Jack Russell');
 
 --
 -- Indexes for dumped tables
@@ -103,7 +100,7 @@ ALTER TABLE `breeds`
 -- AUTO_INCREMENT untuk tabel `animals`
 --
 ALTER TABLE `animals`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT untuk tabel `breeds`

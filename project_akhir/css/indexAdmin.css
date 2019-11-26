@@ -1,0 +1,177 @@
+/*mengatur font*/
+body {
+	font-family: Arial, Consolas, Verdana;
+}
+
+/* mengatur ukuran lebar header */
+.lebar{
+	width:100%;
+}
+/* mengatur header2 */
+.header2{
+	border:3px solid black;
+	height:60px;
+	background: green;
+	float: top;
+	color:white;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:5px;
+}
+/* mengatur judul header2 */
+.header2 h1{
+	font-size:24px;
+	float:left;
+}
+/* mengatur unorderlist header2 */
+.header2 ul {
+	list-style:none; 
+	float:right;
+}
+/* mengatur link header2 */
+.header2 a {
+	text-decoration:none;
+	color:white; 
+	font-weight:bold;
+	text-align:center;
+	font-size:24px;
+}
+/* mengatur list header2 */
+.header2 li {
+	display:inline; 
+	background-color: green;
+	padding:10px;
+	border:3px solid white; 
+	margin-top:0px;
+}
+/* mengatur list ketika ada cursor header2 */
+.header2 li:hover {
+	background-color:white;
+	border:3px solid black;
+}
+/* mengatur link ketika ada cursor header2 */
+.header2 a:hover{
+	color:black;
+}
+
+/* mengatur sidebar kiri */
+.sidebarkiri{
+	border:3px solid black;
+	width: 33vh;
+	height: 60vh;
+	background: green;
+	float: left;
+	color:white;
+	padding-left:15px;
+	padding-right:15px;
+}
+/* mengatur huruf judul sidebar kiri */
+.sidebarkiri h1{
+	font-size:24px;
+}
+/* mengatur huruf paragraf sidebar kiri */
+.sidebarkiri p{
+	font-size:16px;
+	text-align:justify;
+}
+/* mengatur isi*/
+.isi{
+	height:60vh;
+	border:3px solid green;
+	background-color:white;
+	margin-bottom: 15px;
+	margin-left:300px;
+	color: black;
+	text-align:center;
+}
+/* mengatur unorderlist isi */
+.isi ul {
+	list-style:none; 
+}
+/* mengatur link isi */
+.isi a {
+	text-decoration:none;
+	color:white; 
+	font-weight:bold;
+	text-align:center;
+}
+/* mengatur list isi */
+.isi li {
+	display:inline; 
+	background-color: green;
+	padding:5px;
+	border:3px solid black; 
+	margin-left:2px;
+	margin-right:2px;
+}
+/* mengatur list ketika ada kursor isi */
+.isi li:hover {
+	background-color:white;
+	border:3px solid green;
+}
+/* mengatur link ketika ada kursor isi */
+.isi a:hover{
+	color:black;
+}
+/* mengatur judul isi */
+.isi h1{
+	font-size:50px;
+	line-height:0px;
+}
+/* mengatur tabel isi */
+.isi table {
+    font-family: sans-serif;
+    color: black;
+    border-collapse: collapse;
+    width: 90%;
+    border: 1px solid #f2f5f7;
+	margin-left:50px;
+}
+ /* mengatur detail tabel isi */
+.isi table tr th{
+    background: green;
+    color: #fff;
+    font-weight: normal;
+}
+/* mengatur detail tabel isi */ 
+.isi table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+	border:1px solid black;
+}
+ /* mengatur tabel ketika ada kursor isi */
+.isi table tr:hover {
+    background-color: #f5f5f5;
+}
+/* mengatur baris tabel isi */ 
+.isi table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/* mengatur footer */
+#footer{
+	border: 1px dashed green;
+	background-color: white;
+	text-align: center;
+}
+/* mengatur type button */
+input[type=button] {
+    background-color: Transparent;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+input[type=button]:hover {
+	color: black;
+}
+
+/*button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}*/
